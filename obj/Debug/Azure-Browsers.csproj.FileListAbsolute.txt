@@ -1,0 +1,10 @@
+C:\Users\js21x\repos\C# small projects\Azure-Browser\bin\Debug\Azure-Browsers.exe.config
+C:\Users\js21x\repos\C# small projects\Azure-Browser\bin\Debug\Azure-Browsers.exe
+C:\Users\js21x\repos\C# small projects\Azure-Browser\bin\Debug\Azure-Browsers.pdb
+C:\Users\js21x\repos\C# small projects\Azure-Browser\obj\Debug\Azure-Browsers.csproj.AssemblyReference.cache
+C:\Users\js21x\repos\C# small projects\Azure-Browser\obj\Debug\Azure_Browsers.Browser.resources
+C:\Users\js21x\repos\C# small projects\Azure-Browser\obj\Debug\Azure_Browsers.Properties.Resources.resources
+C:\Users\js21x\repos\C# small projects\Azure-Browser\obj\Debug\Azure-Browsers.csproj.GenerateResource.cache
+C:\Users\js21x\repos\C# small projects\Azure-Browser\obj\Debug\Azure-Browsers.csproj.CoreCompileInputs.cache
+C:\Users\js21x\repos\C# small projects\Azure-Browser\obj\Debug\Azure-Browsers.exe
+C:\Users\js21x\repos\C# small projects\Azure-Browser\obj\Debug\Azure-Browsers.pdb
