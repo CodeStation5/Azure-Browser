@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EasyTabs;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,7 +17,25 @@ namespace Azure_Browsers
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Browser());
+            BrowserMain container = new BrowserMain();
+
+            container.Tabs.Add(
+                new TitleBarTab(container)
+                {
+                    Content = new ExBrowser
+                    {
+                        Text = "New Tab"
+                    }
+                }
+            );
+
+            // Initial tab is set
+            container.SelectedTabIndex = 0;
+
+            TitleBarTabsApplicationContext applicationContext = new TitleBarTabsApplicationContext();
+            applicationContext.Start(container);
+            Application.Run(applicationContext);
+            //Application.Run(new BrowserMain());
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using EasyTabs;
+
+using EasyTabs;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -11,15 +12,14 @@ using System.Windows.Forms;
 
 namespace Azure_Browsers
 {
-    public partial class Browser : TitleBarTabs //Form
+    public partial class BrowserMain : TitleBarTabs //Form
     {
-        public Browser()
+        public BrowserMain()
         {
             InitializeComponent();
 
             AeroPeekEnabled = true;
             TabRenderer = new ChromeTabRenderer(this);
-            Icon = mBible.Properties.Resources.appico;
         }
 
         // Creates a new tab on click
@@ -27,18 +27,18 @@ namespace Azure_Browsers
         {
             return new TitleBarTab(this)
             {
-                Content = new Form1
+                Content = new ExBrowser
                 {
                     Text = "New Tab"
                 }
             };
-        }
+        } 
         
 
 
 
 
-
+       
         // Function to perform website navigation based on text entry in 'searchBar'
         private void Navigation()
         {
@@ -94,5 +94,7 @@ namespace Azure_Browsers
         {
 
         }
+        
     }
 }
+
